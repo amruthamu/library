@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Login from './Login';
-import Home from './Home';
-import Details from './Details';
+import Login from './components/Login';
+import Home from './components/Home';
+import Details from './components/Details';
 import { AppProvider } from './AppContext';
 
 function App() {

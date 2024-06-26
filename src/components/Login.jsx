@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Login.css';
-import { AppContext } from './AppContext'; 
+import { AppContext } from '../AppContext'; 
 
 const initialUsers = [
   { username: 'amrutha', password: 'pass1' },

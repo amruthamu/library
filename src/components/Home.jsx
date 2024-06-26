@@ -1,7 +1,7 @@
 
 import React, { useContext, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { AppContext } from './AppContext';
+import { AppContext } from '../AppContext';
 import './Home.css'; 
 
 const books = [

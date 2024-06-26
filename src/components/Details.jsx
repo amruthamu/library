@@ -1,7 +1,5 @@
-// Details.js
-
 import React, { useContext } from 'react';
-import { AppContext } from './AppContext';
+import { AppContext } from '../AppContext';
 import { useNavigate } from 'react-router-dom'; 
 import './Details.css'; 
 
